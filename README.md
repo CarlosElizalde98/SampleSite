@@ -1,1 +1,2 @@
-# SampleSite
+# SampleSite Page
+Author: Carlos Elizalde

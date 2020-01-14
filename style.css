@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+.dashboard{
+    width: 250px;
+    height: 894px;
+    margin: 1px 1px 1px 1px;
+}
+
+.transactions {
+    position:relative;
+    font-family: PT Sans;
+    font-weight: bold;
+    font-size: 2.1875em;
+    letter-spacing: 0.4px;
+    right: 175px;
+    top: 17px;
+}
+
+.transactions-vol{
+    position:relative;
+    font-family: PT Sans;
+    font-size: 11px;
+    opacity: 0.5;
+    right: 175px;
+}
+
+.transactionbox {
+    position: relative;
+    height: 226px;
+    width:308px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #1C7BFF;
+    left: 250px;
+}
+
+#latest{
+
+}
+
+#tops{
+
+}
