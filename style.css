@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 
+/*Code for the Dashboard Image */
 .dashboard{
     width: 250px;
     height: 894px;
     margin: 1px 1px 1px 1px;
 }
 
+/*Code for the Line within the Transactions Box*/
 hr {
     position: absolute;
     width: 308px;
@@ -14,6 +16,7 @@ hr {
     bottom: 30px;
 }
 
+/*image formatting for path inside Transaction Box*/
 .img {
     position: absolute;
     top: 85px;
@@ -21,6 +24,8 @@ hr {
     left: 1px;
     z-index: 2;
 }
+
+/*Formatting for Transactions Number inside Transactions Box*/
 .transactions {
     position:relative;
     font-family: PT Sans;
@@ -31,6 +36,7 @@ hr {
     top: 17px;
 }
 
+/*Formatting the Transactions Vol text inside Transactions Box*/
 .transactions-vol{
     position:relative;
     font-family: PT Sans;
@@ -40,6 +46,7 @@ hr {
     bottom: 12px;
 }
 
+/*Blue Transactions Box code*/
 .transactionbox {
     position: relative;
     height: 226px;
