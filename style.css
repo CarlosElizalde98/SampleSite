@@ -58,6 +58,7 @@ hr {
     top: 0px;
 }
 
+/*Formatting for Day Text inside Transaction Box*/
 .days{
     font-family: PT Sans;
     font-style: Bold; 
@@ -65,7 +66,7 @@ hr {
     margin: 1px;
     padding: 1px;
 }
-
+/*Formatting for individual day list items inside transaction box. */
 .days li{
     position: relative;
     right: 175px;
@@ -79,12 +80,18 @@ hr {
     ;
 }
 
+/*Formatting for Values Img*/
 .valuesimg{
     position: absolute;
     left: 570px;
     right:200px;
-    top:0px;
+    top:20px;
 }
+
+.graphimg{
+
+}
+
 #latest{
 
 }
