@@ -88,14 +88,31 @@ hr {
     top:20px;
 }
 
+/*Formatting for Graph Img*/
 .graphimg{
     position: absolute;
     left:225px;
     top:250px;
 }
 
-#latest{
+.latest{
+    position:relative;
+    height: 486px;
+    width:275px;
+    font-family: PT Sans;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    left: 50px;
+    top: 240px;
+}
 
+.latest-text{
+    position:relative;
+    font-style: Bold;
+    font-size: 17px;
+    color: #1D2361;
+    letter-spacing: -0.08px;
+    white-space: nowrap;
 }
 
 #tops{
