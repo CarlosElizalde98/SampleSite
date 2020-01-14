@@ -7,9 +7,12 @@
 }
 
 .transactions {
+    position:relative;
     font-family: PT Sans;
-    text-align: left;
-    top: 200px;
+    font-weight: bold;
+    font-size: 2.1875em;
+    right: 175px;
+    top: 17px;
 }
 
 .transactionbox {
