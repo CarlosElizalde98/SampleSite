@@ -6,6 +6,21 @@
     margin: 1px 1px 1px 1px;
 }
 
+hr {
+    position: absolute;
+    width: 308px;
+    color:#000000;
+    opacity: 0.2;
+    bottom: 30px;
+}
+
+.img {
+    position: absolute;
+    top: 85px;
+    right: 2px;
+    left: 1px;
+    z-index: 2;
+}
 .transactions {
     position:relative;
     font-family: PT Sans;
