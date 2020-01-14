@@ -55,6 +55,7 @@ hr {
     color: #FFFFFF;
     background-color: #1C7BFF;
     left: 250px;
+    top: 0px;
 }
 
 .days{
@@ -79,10 +80,10 @@ hr {
 }
 
 .valuesimg{
-    position: relative;
-    height:200px;
-    width:300px;
-    left: 260px;
+    position: absolute;
+    left: 570px;
+    right:200px;
+    top:0px;
 }
 #latest{
 
