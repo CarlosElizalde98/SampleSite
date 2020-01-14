@@ -11,7 +11,7 @@
 hr {
     position: absolute;
     width: 308px;
-    color:#000000;
+    background-color:#000000;
     opacity: 0.2;
     bottom: 30px;
 }
