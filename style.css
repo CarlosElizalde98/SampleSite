@@ -2,16 +2,15 @@
 
 /*Code for the Dashboard Image */
 .dashboard{
-    width: 250px;
-    height: 894px;
-    margin: 1px 1px 1px 1px;
+    position: relative;
+    z-index: 2;
 }
 
 /*Code for the Line within the Transactions Box*/
 hr {
     position: absolute;
     width: 308px;
-    color:#000000;
+    background-color:#000000;
     opacity: 0.2;
     bottom: 30px;
 }
@@ -55,8 +54,10 @@ hr {
     color: #FFFFFF;
     background-color: #1C7BFF;
     left: 250px;
+    top: 0px;
 }
 
+/*Formatting for Day Text inside Transaction Box*/
 .days{
     font-family: PT Sans;
     font-style: Bold; 
@@ -64,7 +65,7 @@ hr {
     margin: 1px;
     padding: 1px;
 }
-
+/*Formatting for individual day list items inside transaction box. */
 .days li{
     position: relative;
     right: 175px;
@@ -77,8 +78,78 @@ hr {
     letter-spacing: 0.32px;
     ;
 }
-#latest{
 
+/*Formatting for Values Img*/
+.valuesimg{
+    position: absolute;
+    left: 570px;
+    right:200px;
+    top:20px;
+}
+
+/*Formatting for Graph Img*/
+.graphimg{
+    position: absolute;
+    left:225px;
+    top:250px;
+}
+
+/*Formatting for Podcast Image*/
+.podcastimg{
+    position: absolute;
+    left: 550px;
+    top: 0px;
+}
+/*Formatting for Latest Transactions Box*/
+.latest{
+    position:relative;
+    height: 486px;
+    width:275px;
+    font-family: PT Sans;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    left: 50px;
+    top: 290px;
+}
+
+/*Formatting for Latest Transaction text*/
+.latest-text{
+    position:relative;
+    font-family: PT Sans;
+    font-weight: Bold;
+    font-size: 17px;
+    color: #1D2361;
+    letter-spacing: -0.08px;
+    white-space: nowrap;
+}
+
+/*Latest Transactions Rectangle Formatting*/
+.latest-rectangle{
+    position: relative;
+    height: 52px;
+    width: 206px;
+    margin: 1px;
+    border-radius: 10px;
+    padding: 1px;
+    white-space: nowrap;
+}
+
+/*List items inside Latest Transactions Rectangle*/
+.latest-rectangle li{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1D2361;
+    padding: 15px;
+
+}
+
+/*Code for Oval that will hold Shopping Cart Icon*/
+.btn {
+    height: 50px;
+    width: 50px;
+    background-color: #1377FF;
+    border-radius: 50%;
 }
 
 #tops{
