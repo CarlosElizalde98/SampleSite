@@ -132,6 +132,7 @@ hr {
     border-radius: 10px;
     padding: 1px;
     white-space: nowrap;
+    color: #1D2361;
 }
 
 /*List items inside Latest Transactions Rectangle*/
@@ -139,7 +140,6 @@ hr {
     display: inline-block;
     font-size: 12px;
     font-weight: bold;
-    color: #1D2361;
     padding: 15px;
 
 }
@@ -150,6 +150,14 @@ hr {
     width: 50px;
     background-color: #1377FF;
     border-radius: 50%;
+}
+
+.red-text {
+    color:#D93527;
+}
+
+.green-text{
+    color: #5BB09C;
 }
 
 #tops{
