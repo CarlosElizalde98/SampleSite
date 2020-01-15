@@ -2,6 +2,7 @@
 
 /*Code for the Dashboard Image */
 .dashboard{
+    position: relative;
     z-index: 2;
 }
 
@@ -132,7 +133,7 @@ hr {
     font-size: 12px;
     font-weight: bold;
     color: #1D2361;
-    padding: 10px;
+    padding: 15px;
 
 
 
