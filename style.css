@@ -129,6 +129,7 @@ hr {
     margin: 1px;
     border-radius: 10px;
     padding: 1px;
+    white-space: nowrap;
 }
 
 /*List items inside Latest Transactions Rectangle*/
@@ -140,14 +141,14 @@ hr {
     color: #1D2361;
     padding: 15px;
 
-
+}
 
 /*Code for Oval that will hold Shopping Cart Icon*/
-.oval {
-    height: 25px;
-    width: 25px;
+.btn {
+    height: 50px;
+    width: 50px;
     background-color: #1377FF;
-    border-radius: 50%;
+    border-radius: 70%;
 }
 
 #tops{
