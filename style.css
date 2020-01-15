@@ -94,6 +94,11 @@ hr {
     top:250px;
 }
 
+.podcastimg{
+    position: absolute;
+    left: 550px;
+    top: 0px;
+}
 /*Formatting for Latest Transactions Box*/
 .latest{
     position:relative;
@@ -103,7 +108,7 @@ hr {
     border-radius: 10px;
     background-color: #FFFFFF;
     left: 50px;
-    top: 240px;
+    top: 290px;
 }
 
 /*Formatting for Latest Transaction text*/
@@ -144,6 +149,7 @@ hr {
     background-color: #1377FF;
     border-radius: 50%;
 }
+
 #tops{
 
 }
