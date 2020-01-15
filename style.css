@@ -152,10 +152,12 @@ hr {
     border-radius: 50%;
 }
 
+/*Code for Red Number Text*/
 .red-text {
     color:#D93527;
 }
 
+/*Code for Green Number Text*/
 .green-text{
     color: #5BB09C;
 }
