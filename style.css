@@ -163,6 +163,8 @@ hr {
 }
 
 .tops{
+    position: relative;
     width: 200px;
     height: auto;
+    
 }
