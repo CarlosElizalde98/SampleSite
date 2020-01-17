@@ -162,6 +162,7 @@ hr {
     color: #5BB09C;
 }
 
-#tops{
-
+.tops{
+    width: 200px;
+    height: auto;
 }
