@@ -131,6 +131,7 @@ hr {
     margin: 1px;
     border-radius: 10px;
     padding: 1px;
+    color: #1D2361;
     white-space: nowrap;
     color: #1D2361;
 }
@@ -150,7 +151,6 @@ hr {
     width: 50px;
     background-color: #1377FF;
     border-radius: 50%;
-}
 
 /*Code for Red Number Text*/
 .red-text {
@@ -162,6 +162,7 @@ hr {
     color: #5BB09C;
 }
 
-#tops{
-
+.tops{
+    width: 200px;
+    height: auto;
 }
