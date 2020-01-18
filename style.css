@@ -151,7 +151,7 @@ hr {
     width: 50px;
     background-color: #1377FF;
     border-radius: 50%;
-
+}
 /*Code for Red Number Text*/
 .red-text {
     color:#D93527;
@@ -166,5 +166,5 @@ hr {
     position: relative;
     width: 200px;
     height: auto;
-    
+
 }
