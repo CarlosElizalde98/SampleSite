@@ -166,5 +166,7 @@ hr {
     position: relative;
     width: 200px;
     height: auto;
-    left: 500px;
+    left: 1000px;
+	bottom: 740px;
+	background-color: #FFFFFF;
 }
