@@ -116,7 +116,7 @@ hr {
 .latest-text{
     position:relative;
     font-family: PT Sans;
-    font-weight: Bold;
+    font-weight: bold;
     font-size: 17px;
     color: #1D2361;
     letter-spacing: -0.08px;
@@ -169,4 +169,11 @@ hr {
     left: 1000px;
 	bottom: 740px;
 	background-color: #FFFFFF;
+}
+
+.tops a {
+	padding-left: 5px;
+	position: relative;
+	left: 230px;
+	bottom: 30px;
 }
