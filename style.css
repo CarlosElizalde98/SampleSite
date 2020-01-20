@@ -155,11 +155,13 @@ hr {
 /*Code for Red Number Text*/
 .red-text {
     color:#D93527;
+	text-align: right;
 }
 
 /*Code for Green Number Text*/
 .green-text{
     color: #5BB09C;
+	text-align: right;
 }
 
 /*Code for Top Stocks Box*/
@@ -228,5 +230,20 @@ opacity: 0.15;
 background-color: #F0B048;
 text-align: center;
 }
+
+/*Code for Oval containing letter M in TopStock*/
+.m-oval {	
+position: relative;
+right: 35px;
+bottom: 5px;
+border-radius: 50%;
+height: 34px;	
+width: 34px;	
+opacity: 0.15;	
+background-color: #E53C3C;
+text-align: center;
+}
+
+
 
 
