@@ -116,7 +116,7 @@ hr {
 .latest-text{
     position:relative;
     font-family: PT Sans;
-    font-weight: Bold;
+    font-weight: bold;
     font-size: 17px;
     color: #1D2361;
     letter-spacing: -0.08px;
@@ -155,13 +155,16 @@ hr {
 /*Code for Red Number Text*/
 .red-text {
     color:#D93527;
+	text-align: right;
 }
 
 /*Code for Green Number Text*/
 .green-text{
     color: #5BB09C;
+	text-align: right;
 }
 
+/*Code for Top Stocks Box*/
 .tops{
     position: relative;
     width: 200px;
@@ -170,3 +173,78 @@ hr {
 	bottom: 740px;
 	background-color: #FFFFFF;
 }
+
+/*Code for Top Stocks Search Icon*/
+.tops a {
+	padding-left: 5px;
+	position: relative;
+	left: 230px;
+	bottom: 30px;
+	font-family: PT Sans;
+}
+
+/*Code for the Unordered List in TopStock*/
+.tops ul {
+	white-space: nowrap;
+	list-style: none;
+}
+
+/*Code for List Items in TopStock*/
+.tops li {
+	display: inline-block;
+	font-family: PT Sans;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/*Code that styles Text in Top Stock*/
+.tops-text{
+	position: relative;
+	right: 35px;
+	padding-right: 20px;
+	padding-left: 10px;
+}
+
+/*Code for Oval containing C in TopStock*/
+.c-oval {
+position: relative;
+right: 35px;	
+height: 34px;	
+width: 34px;	
+opacity: 0.15;	
+border-radius: 50%;
+background-color: #007BFF;
+bottom: 5px;
+text-align: center;
+font-weight: bold;
+}
+
+/*Code for Oval containing letter F in TopStock*/
+.f-oval {	
+position: relative;
+right: 35px;
+bottom: 5px;
+border-radius: 50%;
+height: 34px;	
+width: 34px;	
+opacity: 0.15;	
+background-color: #F0B048;
+text-align: center;
+}
+
+/*Code for Oval containing letter M in TopStock*/
+.m-oval {	
+position: relative;
+right: 35px;
+bottom: 5px;
+border-radius: 50%;
+height: 34px;	
+width: 34px;	
+opacity: 0.15;	
+background-color: #E53C3C;
+text-align: center;
+}
+
+
+
+
